@@ -36,18 +36,7 @@ export default function HomePage() {
           
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link 
-              href="/book" 
-              className="bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded-lg hover:bg-yellow-300 transition-colors text-lg shadow-lg"
-            >
-              Book Your Ride
-            </Link>
-            <Link 
-              href="/services" 
-              className="bg-white/20 text-white font-bold py-3 px-8 rounded-lg hover:bg-white/30 transition-colors text-lg border border-white/30"
-            >
-              Explore Services
-            </Link>
+           
           </div>
         </div>
 
