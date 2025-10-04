@@ -288,7 +288,7 @@ export default function HomePage() {
                     </span>
                   ))}
                 </div>
-                <p className="text-gray-600 italic mb-4">"{testimonial.comment}"</p>
+                <p className="text-gray-600 italic mb-4">{testimonial.comment}</p>
                 <div>
                   <div className="font-semibold text-gray-900">{testimonial.name}</div>
                   <div className="text-sm text-gray-500">{testimonial.role}</div>

@@ -34,7 +34,7 @@ export default function Error({ error, reset }) {
         {/* Content */}
         <h1 className="text-4xl font-bold text-white mb-4">Something went wrong!</h1>
         <p className="text-lg text-white/80 mb-6">
-          We're experiencing technical difficulties. Our team is already working to fix the issue.
+          We are experiencing technical difficulties. Our team is already working to fix the issue.
         </p>
 
         {/* Error message (optional) */}

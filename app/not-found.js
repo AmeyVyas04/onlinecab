@@ -28,7 +28,7 @@ export default function NotFound() {
         {/* Content */}
         <h1 className="text-4xl font-bold text-white mb-4">404 - Page Not Found</h1>
         <p className="text-lg text-white/80 mb-2">Oops! It looks like you took a wrong turn.</p>
-        <p className="text-white/70 mb-8">Let's get you back on the road to your destination.</p>
+        <p className="text-white/70 mb-8">Lets get you back on the road to your destination.</p>
 
         {/* Action buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

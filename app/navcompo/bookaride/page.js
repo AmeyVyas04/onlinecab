@@ -340,7 +340,7 @@ const geocodeAddress = async (address) => {
                   required
                 />
                 {showPickupSuggestions && pickupSuggestions.length > 0 && (
-                  <div className="absolute z-10 w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-60 overflow-auto">
+                  <div className="absolute text-black z-10 w-full bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-60 overflow-auto">
                     {pickupSuggestions.map((suggestion, index) => (
                       <div
                         key={index}
